@@ -23,11 +23,11 @@ maxprintline=10000
 checkruns = 2
 
 tdslocations={
-"doc/latex/oberdiek/atbegshi-example1.tex",
-"doc/latex/oberdiek/atbegshi-example2.tex",
-"doc/latex/oberdiek/atbegshi.pdf",
-"source/latex/oberdiek/atbegshi.dtx",
-"tex/generic/oberdiek/atbegshi.sty",
+"doc/latex/atbegshi/atbegshi-example1.tex",
+"doc/latex/atbegshi/atbegshi-example2.tex",
+"doc/latex/atbegshi/atbegshi.pdf",
+"source/latex/atbegshi/atbegshi.dtx",
+"tex/generic/atbegshi/atbegshi.sty",
 }
 
 function update_tag(file,content,tagname,tagdate)
