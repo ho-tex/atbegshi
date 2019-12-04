@@ -4,7 +4,7 @@
 module = "atbegshi"
 
 installfiles = {
-'*.sty',*.tex',
+'*.sty','*.tex',
 '*.dtx','*.pdf'
 }
 
