@@ -12,6 +12,11 @@ installfiles = {
 textfiles = {"README.md"}
 unpackfiles = {'atbegshi.dtx'}
 
+checkconfigs = {"build","config-plain"}
+maxprintline=10000
+checkruns = 2
+
+
 packtdszip  = true
 
 maxprintline=10000

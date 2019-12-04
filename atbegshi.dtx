@@ -1,7 +1,7 @@
 % \iffalse meta-comment
 %
 % File: atbegshi.dtx
-% Version: 2016/06/09 v1.18
+% Version: 2019/12/15 v1.19
 % Info: At begin shipout hook
 %
 % Copyright (C)
@@ -86,7 +86,7 @@
 \input docstrip.tex
 \Msg{************************************************************************}
 \Msg{* Installation}
-\Msg{* Package: atbegshi 2016/06/09 v1.18 At begin shipout hook (HO)}
+\Msg{* Package: atbegshi 2019/12/15 v1.19 At begin shipout hook (HO)}
 \Msg{************************************************************************}
 
 \keepsilent
@@ -98,7 +98,7 @@
 This is a generated file.
 
 Project: atbegshi
-Version: 2016/06/09 v1.18
+Version: 2019/12/15 v1.19
 
 Copyright (C)
    2007-2011 Heiko Oberdiek
@@ -171,7 +171,7 @@ and the derived files
 %<*driver>
 \NeedsTeXFormat{LaTeX2e}
 \ProvidesFile{atbegshi.drv}%
-  [2016/06/09 v1.18 At begin shipout hook (HO)]%
+  [2019/12/15 v1.19 At begin shipout hook (HO)]%
 \documentclass{ltxdoc}
 \usepackage{holtxdoc}[2011/11/22]
 \begin{document}
@@ -185,7 +185,7 @@ and the derived files
 % \GetFileInfo{atbegshi.drv}
 %
 % \title{The \xpackage{atbegshi} package}
-% \date{2016/06/09 v1.18}
+% \date{2019/12/15 v1.19}
 % \author{Heiko Oberdiek\thanks
 % {Please report any issues at \url{https://github.com/ho-tex/oberdiek/issues}}}
 %
@@ -905,7 +905,7 @@ The last page.
   \fi
 \expandafter\x\csname ver@atbegshi.sty\endcsname
 \ProvidesPackage{atbegshi}%
-  [2016/06/09 v1.18 At begin shipout hook (HO)]%
+  [2019/12/15 v1.19 At begin shipout hook (HO)]%
 %    \end{macrocode}
 %
 % \subsection{Catcodes}
@@ -1402,9 +1402,9 @@ X \endgroup
       \input #1.sty\relax
     \fi
   }%
-  \TMP@RequirePackage{ifpdf}[2011/01/30]%
+  \TMP@RequirePackage{iftex}[2019/11/07]%
 \else
-  \RequirePackage{ifpdf}[2011/01/30]%
+  \RequirePackage{iftex}[2019/11/07]%
 \fi
 %    \end{macrocode}
 %
@@ -2104,7 +2104,13 @@ X \endgroup
 %   \end{Version}
 %   \begin{Version}{2016/06/09 v1.18}
 %   \item
-%     Update for \cs{pdfhorign} in new LuaTeX.
+%     Update for \cs{pdfhorigin} in new LuaTeX.
+%   \end{Version}
+%   \begin{Version}{2019/12/15 v1.19}
+%   \item
+%     Documentation updates.
+%   \item
+%    iftex package.
 %   \end{Version}
 % \end{History}
 %
